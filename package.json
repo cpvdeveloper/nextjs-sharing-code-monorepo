@@ -1,0 +1,22 @@
+{
+  "name": "nextjs-sharing-code-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Demo application showing how to share code between NextJS projects in a monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:app1": "cd packages/app-1 && yarn dev",
+    "dev:app2": "cd packages/app-2 && yarn dev",
+    "dev:all": "yarn dev:app1 & yarn dev:app2"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "next-transpile-modules": "^4.1.0",
+    "typescript": "^4.1.2"
+  }
+}
