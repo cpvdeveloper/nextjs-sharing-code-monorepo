@@ -2,6 +2,7 @@
   "name": "app-1",
   "version": "0.1.0",
   "private": true,
+  "main": "pages/index.js",
   "scripts": {
     "dev": "next dev -p 3001",
     "build": "next build",
