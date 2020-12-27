@@ -12,10 +12,6 @@ Demo application showing how to share code between NextJS TypeScript projects wi
 2. Start both applications with `yarn dev:all`
 3. View the applications running at `localhost:3001` and `localhost:3002`
 
-The code sharing can be seen in the API routes:
-* View `app-1` at `localhost:3001/api/hello` and see code that has been imported from `app-2`
-* View `app-2` at `localhost:3002/api/hello` and see code that has been imported from `app-1`
-
-And also seen in the client-side:
-* TODO
-* TODO
+The code sharing is demonstrated for both frontend and backend (API) code:
+* The `app-1` homepage defined in `app-1/pages/index.js` uses the `openApp2` component from `app-2`; this can be seen working at `localhost:3001`
+* The `app-1` 'hello' API route in `app-1/pages/api/hello.tx` uses the `sayHello` function from `app-2`; this can be seen working at `localhost:3001/api/hello`
