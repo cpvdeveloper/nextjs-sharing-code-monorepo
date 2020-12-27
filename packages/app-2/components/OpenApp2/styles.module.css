@@ -1,0 +1,9 @@
+.link {
+  background: royalblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
