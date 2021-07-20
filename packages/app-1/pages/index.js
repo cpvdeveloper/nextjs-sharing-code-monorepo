@@ -1,6 +1,6 @@
-import styles from '../styles/Home.module.css'
-import OpenApp2 from 'app-2/components/OpenApp2'
-import { SharedButton } from 'shared'
+import styles from "../styles/Home.module.css";
+import OpenApp2 from "app-2/components/OpenApp2";
+import { SharedButton } from "shared";
 
 export default function Home() {
   return (
@@ -9,5 +9,5 @@ export default function Home() {
       <OpenApp2 />
       <SharedButton />
     </div>
-  )
+  );
 }
