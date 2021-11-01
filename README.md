@@ -20,4 +20,4 @@ The code sharing is demonstrated for both frontend and backend (API) code:
 
 ## A note on Nextjs with next-transpile-modules
 
-There is a strict dependency between the versions of next-transpile-modules and Nextjs itself, check the [compatibility table](https://github.com/martpie/next-transpile-modules#compatibility-table) to ensure that the versions work together. This repo currently uses Nextjs v11 with next-transpile-modules v8.
+There is a strict dependency between the versions of next-transpile-modules and Nextjs itself, check the [compatibility table](https://github.com/martpie/next-transpile-modules#compatibility-table) to ensure that the versions work together. This repo currently uses Nextjs v12 with next-transpile-modules v9.
