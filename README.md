@@ -1,6 +1,6 @@
 # nextjs-sharing-code-monorepo
 
-Demo application showing how to share code between NextJS TypeScript projects within a monorepo.
+Demo application showing how to share code between NextJS TypeScript projects within a monorepo. Full explanation of how it's built [here](https://medium.com/weekly-webtips/sharing-code-between-nextjs-applications-2c0f3b415e1).
 
 ## How it works
 
