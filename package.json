@@ -7,8 +7,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev:app1": "cd packages/app-1 && yarn dev",
-    "dev:app2": "cd packages/app-2 && yarn dev",
+    "dev:app1": "yarn workspace app-1 dev",
+    "dev:app2": "yarn workspace app-2 dev",
     "dev:all": "yarn dev:app1 & yarn dev:app2"
   },
   "author": "",
