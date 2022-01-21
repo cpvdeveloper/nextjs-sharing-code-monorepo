@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css";
 import OpenApp2 from "app-2/components/OpenApp2";
-import { SharedButton } from "shared";
+import { SharedButton } from "shared/src/components/Button";
 
 export default function Home() {
   return (

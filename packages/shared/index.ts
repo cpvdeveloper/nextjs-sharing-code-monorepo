@@ -1,1 +1,1 @@
-export { default as SharedButton } from "./src/components/Button";
+export { SharedButton } from "./src/components/Button";

@@ -8,7 +8,7 @@ const StyledButton = styled.button`
   cursor: pointer;
 `;
 
-export default function SharedButton() {
+export function SharedButton() {
   return (
     <StyledButton onClick={() => alert("Clicked the shared button")}>
       This button is shared
