@@ -1,3 +1,5 @@
-const withTM = require("next-transpile-modules")(["app-1", "shared"]);
-
-module.exports = withTM();
+module.exports = {
+  experimental: {
+    transpilePackages: ["app-1", "shared"],
+  },
+};
