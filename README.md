@@ -5,7 +5,7 @@ Demo application showing how to share code between NextJS TypeScript projects wi
 ## How it works
 
 - [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) to create a 'monorepo' containing two NextJS applications
-- [next-transpile-modules](https://www.npmjs.com/package/next-transpile-modules) to allow importing of code from one application into another
+- ~~[next-transpile-modules](https://www.npmjs.com/package/next-transpile-modules) to allow importing of code from one application into another~~. Simplified as of Next.js version 13, where there is a built-in [`transpilePackages` option](https://beta.nextjs.org/docs/api-reference/next.config.js#transpilepackages) which can be used instead of the 3rd party `next-transpile-modules` package.
 
 ## Getting started
 
@@ -17,7 +17,3 @@ The code sharing is demonstrated for both frontend and backend (API) code:
 
 - The `app-1` homepage defined in `app-1/pages/index.js` uses the `openApp2` component from `app-2`; this can be seen working at `localhost:3001`
 - The `app-1` 'hello' API route in `app-1/pages/api/hello.tx` uses the `sayHello` function from `app-2`; this can be seen working at `localhost:3001/api/hello`
-
-## A note on Nextjs with next-transpile-modules
-
-There is a strict dependency between the versions of next-transpile-modules and Nextjs itself, check the [compatibility table](https://github.com/martpie/next-transpile-modules#compatibility-table) to ensure that the versions work together. This repo currently uses Nextjs v12 with next-transpile-modules v9.
