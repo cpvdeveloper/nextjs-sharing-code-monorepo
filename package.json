@@ -7,9 +7,9 @@
     "packages/*"
   ],
   "scripts": {
-    "dev:app1": "yarn workspace app-1 dev",
-    "dev:app2": "yarn workspace app-2 dev",
-    "dev:all": "yarn dev:app1 & yarn dev:app2"
+    "dev:app1": "pnpm --filter app-1 run dev",
+    "dev:app2": "pnpm --filter app-2 run dev",
+    "dev:all": "pnpm -r dev"
   },
   "author": "",
   "license": "ISC",

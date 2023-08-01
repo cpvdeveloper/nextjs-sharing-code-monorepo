@@ -1,5 +1,3 @@
 module.exports = {
-  experimental: {
-    transpilePackages: ["app-1", "shared"],
-  },
+  transpilePackages: ["app-1", "shared"],
 };

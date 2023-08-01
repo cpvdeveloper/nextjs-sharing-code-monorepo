@@ -7,5 +7,8 @@
     "dev": "next dev -p 3002",
     "build": "next build",
     "start": "next start"
+  },
+  "dependencies": {
+    "next": "^13.4.12"
   }
 }
